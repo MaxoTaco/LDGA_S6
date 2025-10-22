@@ -300,10 +300,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.202
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 1
   rounded:
     m_OverrideState: 1
     m_Value: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.414
   response:
     m_OverrideState: 1
     m_Value: 0.8
@@ -523,7 +523,7 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.08
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -610,10 +610,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value: {r: 0.3660378, g: 0.3660378, b: 0.3660378, a: 1}
   highlights:
     m_OverrideState: 1
-    m_Value: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_Value: {r: 0.645283, g: 0.645283, b: 0.645283, a: 1}
   balance:
     m_OverrideState: 1
     m_Value: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -1.2
   contrast:
     m_OverrideState: 1
     m_Value: 0
@@ -701,28 +701,28 @@ MonoBehaviour:
   active: 1
   redOutRedIn:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 105
   redOutGreenIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 16
   redOutBlueIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 34
   greenOutRedIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -8
   greenOutGreenIn:
     m_OverrideState: 1
     m_Value: 100
   greenOutBlueIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -20
   blueOutRedIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -1
   blueOutGreenIn:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: -8
   blueOutBlueIn:
     m_OverrideState: 1
     m_Value: 100
