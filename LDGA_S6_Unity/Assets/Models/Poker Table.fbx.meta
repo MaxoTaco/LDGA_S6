@@ -5,50 +5,60 @@ ModelImporter:
   internalIDToNameTable: []
   externalObjects:
   - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface1
+    second: {fileID: 2100000, guid: 892beff7404640943bcc6e3ae2b941f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: a58f4a6bb104cd74d9ff849f54c4fd53, type: 2}
+  - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_felt_Height.1001
-    second: {fileID: 2800000, guid: 046bb0b42104c7c46a4fc920d5e73500, type: 3}
+    second: {fileID: 2800000, guid: e119660b918194645bded48ba6077be3, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_felt_Metalness.1001
-    second: {fileID: 2800000, guid: 754731336c1b40b4dbd42b4cc2b3197e, type: 3}
+    second: {fileID: 2800000, guid: 9b1e33a07bac42248b9d8530d3989349, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_felt_Normal.1001
-    second: {fileID: 2800000, guid: c9f6b1f2876df1742a022a574d99b922, type: 3}
+    second: {fileID: 2800000, guid: cf5b3259b984487459c6568fd96d9344, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_felt_Roughness.1001
-    second: {fileID: 2800000, guid: ed2325a1fd507614e8cfceb7e09d0a3b, type: 3}
+    second: {fileID: 2800000, guid: a2c2fa7cde5669643bd8d1749249050f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_table_BaseColor.1001
-    second: {fileID: 2800000, guid: 4739cd01fc8a3824c9e84452faa5926a, type: 3}
+    second: {fileID: 2800000, guid: cef3de26be2b5b548afcc7c9e3efbb75, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_table_Height.1001
-    second: {fileID: 2800000, guid: 254d554338902d7458aada1650bd0ed4, type: 3}
+    second: {fileID: 2800000, guid: 99a16cd9ec226aa40ae0d0fdcecdee2f, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_table_Metalness.1001
-    second: {fileID: 2800000, guid: 043e463529f63044fb7835ab9acca84b, type: 3}
+    second: {fileID: 2800000, guid: 9927135415860f446b3c207b26a49862, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_table_Normal.1001
-    second: {fileID: 2800000, guid: 05feaba97fc6bd24da5811ea29bd32fc, type: 3}
+    second: {fileID: 2800000, guid: 4be6d8010da49ca4cbbdba473f777470, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: PokerTable Untextures_table_Roughness.1001
-    second: {fileID: 2800000, guid: ce333e5b3694f944585de3aad9ee6406, type: 3}
+    second: {fileID: 2800000, guid: 149eb75a4f17e644c888d1b51a797fe3, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
