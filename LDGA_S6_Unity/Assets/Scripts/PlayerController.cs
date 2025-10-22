@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
             audioSource.Pause();
         }
         
-        if (!audioSource.isPlaying && causingFootsteps == true)
+        if (!audioSource.isPlaying && causingFootsteps)
         {
             audioSource.UnPause();
         }
