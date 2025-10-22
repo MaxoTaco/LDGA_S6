@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 0cee86d9ee7b5e1488943e070439626b
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_BaseColor.1001
+    second: {fileID: 2800000, guid: 3ef2ff230405c2f4496712d5501eb701, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_Height.1001
+    second: {fileID: 2800000, guid: dab6616217acc1e49a868e85f50e6b32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_Metalness.1001
+    second: {fileID: 2800000, guid: c0af45882a8f00f48b2410ea9d3c9661, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_Normal.1001
+    second: {fileID: 2800000, guid: 1fb2c75ef2dfcad41b746abeab33370b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_Opacity.1001
+    second: {fileID: 2800000, guid: 7e2dbe1429c00af41b228dcae5b25d79, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Chandelier_openPBR_shader1_Roughness.1001
+    second: {fileID: 2800000, guid: 4091431d0a9237048b8adf5803371304, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 9082641445615774296be994065db527, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Emissive.1001
+    second: {fileID: 2800000, guid: c03865bf6c5c52c409fcd19c77cae2d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Height.1001
+    second: {fileID: 2800000, guid: 577dbf1e46386dd40b27ec44b1d99dba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: d587c391f7d695d4989ad7eb1a1c164a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 309e75782e7403f479f972ac50bfb672, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Opacity.1001
+    second: {fileID: 2800000, guid: cc706b5a3f4f0e34cb0b85178bf308c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Inner_Bulb_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 957a77e3ec46fb04780ffd380d4b1452, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_BaseColor.1001
+    second: {fileID: 2800000, guid: 1ac55edc6c5ca724c974c60a5899832d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Emissive.1001
+    second: {fileID: 2800000, guid: b286ed915433fd8498bb0d86da4d391e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Height.1001
+    second: {fileID: 2800000, guid: 239f4e20d610d7f48a8d839a6813a46d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Metalness.1001
+    second: {fileID: 2800000, guid: 94d71e3ed34e3f045af6ee8ac16ac88e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Normal.1001
+    second: {fileID: 2800000, guid: 48be2e1d302a3794281494cb44b4f0e4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Opacity.1001
+    second: {fileID: 2800000, guid: d1da161c1938830448025e15838202d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Outer_Layer_Roughness.1001
+    second: {fileID: 2800000, guid: ca8ce16e419800d4fa84fcc3eea8d221, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: fa1d36eef3023e04caa77d27ac534778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_Emissive.1001
+    second: {fileID: 2800000, guid: bd8ddb9fffab17949917f345f061ada7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_Height.1001
+    second: {fileID: 2800000, guid: 425c489ce3abbdd4aa00dcc2da2979c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 1c3a9bd2312a24f45be6d5bac1950554, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_Normal.1001
+    second: {fileID: 2800000, guid: c084fad51e9b2f24780ed17bc678a3d5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: RR_Lightbulb_2_Substance_Lightbulb_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 743c242fe747f9e46b28f8875671e48e, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
