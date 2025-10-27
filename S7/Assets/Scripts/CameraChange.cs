@@ -10,6 +10,8 @@ public class CameraChange : MonoBehaviour
 
     private int index = 0;
 
+    public int RoomIndex => index;
+
     private void Awake()
     {
         index = 0;
@@ -20,21 +22,21 @@ public class CameraChange : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
- 
+
         if (other.gameObject.name == cameraTrigger.name)
         {
-            
+
             cameras[index].gameObject.SetActive(false);
-            
+
             index++;
-            
+
             if (index == startingPositions.Length)
             {
                 index = 0;
             }
-            
+
             transform.position = startingPositions[index].transform.position;
-            
+
             characterController.enabled = false;
             cameras[index].gameObject.SetActive(true);
             characterController.enabled = true;
@@ -42,7 +44,7 @@ public class CameraChange : MonoBehaviour
 
             Debug.Log(startingPositions[index].gameObject.name);
 
-            
+
         }
     }
 }
