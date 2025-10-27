@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour
     AudioSource audioSource;
     bool hasLanded = false;
     private bool causingFootsteps = false;
+    bool freezeMovement = false;
+
+    public void SetFreezeMovement(bool newBool) => freezeMovement = newBool;
 
     void Start()
     {
@@ -26,6 +29,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (freezeMovement) return;
+
         // get input
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");
@@ -97,6 +102,4 @@ public class PlayerController : MonoBehaviour
 
         moveDirection.y -= gravity * Time.deltaTime;
     }
-    
-    
 }

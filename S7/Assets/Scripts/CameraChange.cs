@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class CameraChange : MonoBehaviour
@@ -46,5 +47,14 @@ public class CameraChange : MonoBehaviour
 
 
         }
+    }
+
+    public IEnumerator Restart()
+    {
+        transform.position = startingPositions[index].transform.position;
+
+        // bug where if you keep moving you aren't teleported back to start
+        yield return new WaitForSeconds(0.1f);
+        characterController.gameObject.GetComponent<PlayerController>().SetFreezeMovement(false);
     }
 }

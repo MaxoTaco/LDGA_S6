@@ -5,6 +5,8 @@ using UnityEngine;
 public class CatBehavior : MonoBehaviour
 {
     public CameraChange cameraChange;
+    public float timeInBetweenMovement = 1;
+    public float timeAtHole = 3;
     public Transform defaultPosition;
     public List<Transform> roomOnePositions;
     public List<Transform> roomTwoPositions;
@@ -20,7 +22,7 @@ public class CatBehavior : MonoBehaviour
 
         StartCoroutine(CatCycle());
     }
-    
+
     IEnumerator CatCycle()
     {
         while (true)
@@ -43,15 +45,14 @@ public class CatBehavior : MonoBehaviour
             // reset cat position
             transform.position = defaultPosition.position;
 
-            yield return new WaitForSeconds(1);
+            yield return new WaitForSeconds(timeInBetweenMovement);
 
             // move cat to random position
             var randomIndex = Random.Range(0, currentPositionsList.Count);
             transform.position = currentPositionsList[randomIndex].position;
             //Debug.Log("Current position: " + currentPositionsList[randomIndex].name);
 
-            yield return new WaitForSeconds(3);
+            yield return new WaitForSeconds(timeAtHole);
         }
-        
     }
 }
