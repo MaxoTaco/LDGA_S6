@@ -21,7 +21,6 @@ public class PlayerController : MonoBehaviour
 
     void Start()
     {
-        
         controller = GetComponent<CharacterController>();
         audioSource = GetComponentInChildren<AudioSource>();
         audioSource.Play();
