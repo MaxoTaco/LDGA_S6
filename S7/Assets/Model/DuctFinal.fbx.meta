@@ -13,27 +13,27 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Duct_DefaultMaterial_BaseColor.1011
-    second: {fileID: 2800000, guid: 4b5ce5d860a9a424282d698a66147caa, type: 3}
+    second: {fileID: 2800000, guid: 16ae5d5273100534d96f9ff42fc05600, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Duct_DefaultMaterial_Height.1011
-    second: {fileID: 2800000, guid: 8ca7cc79d5a1f90489b1a055b0bac500, type: 3}
+    second: {fileID: 2800000, guid: 6e406c42a9838144e92c0e95db7fab10, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Duct_DefaultMaterial_Metalness.1011
-    second: {fileID: 2800000, guid: 07a79ae1b9dc7d0409fc6301edca64a2, type: 3}
+    second: {fileID: 2800000, guid: 30d1b5a7fb4ce8d43be0cc3152e85cdb, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Duct_DefaultMaterial_Normal.1011
-    second: {fileID: 2800000, guid: c196805b4739d1341a12ef438c1f0e1c, type: 3}
+    second: {fileID: 2800000, guid: e71b8c35c2ce1d84abaaf83212792f57, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Duct_DefaultMaterial_Roughness.1011
-    second: {fileID: 2800000, guid: af5bbd74f1639af4781a8783c54581e7, type: 3}
+    second: {fileID: 2800000, guid: 7f4152077ab747442b43191b37d139fb, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
