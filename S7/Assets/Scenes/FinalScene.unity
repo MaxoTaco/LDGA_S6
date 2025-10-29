@@ -779,7 +779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   speed: 5
-  jumpHeight: 0.1
+  jumpHeight: 0.2
   gravity: 5
   airControl: 10
   rotationSpeed: 5
@@ -809,7 +809,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0.57, z: 0}
+  m_Center: {x: 0, y: 0.7, z: 0}
 --- !u!4 &351740458 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5985681268525339622, guid: fe8b5575a8711434f9b0f6ec5f57c90a, type: 3}
