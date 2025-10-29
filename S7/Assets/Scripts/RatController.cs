@@ -19,6 +19,16 @@ public class RatController : MonoBehaviour
     private Vector3 moveDirection = Vector3.zero;
 
     public GameObject armature;
+
+    bool freezeMovement = false;
+
+    public void SetFreezeMovement(bool newBool)
+    {
+        freezeMovement = newBool;
+        anim.SetBool("isRunning", false);
+        running = false;
+    }
+
     private void Awake()
     {
         cc = gameObject.GetComponent<CharacterController>();
@@ -27,6 +37,8 @@ public class RatController : MonoBehaviour
 
     private void Update()
     {
+        if (freezeMovement) return;
+
         Vector3 input = GetInput();
         HandleMovement(input);
         RotateRat(input);

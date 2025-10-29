@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Detection : MonoBehaviour
 {
-    public PlayerController playerController;
+    public RatController ratController;
     public float restartAfterDeath = 2;
 
     void OnTriggerEnter(Collider other)
@@ -14,9 +14,10 @@ public class Detection : MonoBehaviour
     IEnumerator Caught()
     {
         // HERE: all sounds & animations play before restarting
-        
+
         //Debug.Log("Caught!");
-        playerController?.SetFreezeMovement(true);
+        ratController.SetFreezeMovement(true);
+        
         yield return new WaitForSeconds(restartAfterDeath);
 
         //Debug.Log("Restarting");
