@@ -690,7 +690,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2939817197887808995, guid: fe8b5575a8711434f9b0f6ec5f57c90a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2939817197887808995, guid: fe8b5575a8711434f9b0f6ec5f57c90a, type: 3}
       propertyPath: m_ApplyRootMotion
@@ -1103,7 +1103,7 @@ CharacterController:
   m_StepOffset: 0.3
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -0.2, z: 0}
 --- !u!114 &2089327126
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1121,7 @@ MonoBehaviour:
   gravity: 5
   airControl: 10
   rotationSpeed: 5
+  running: 0
   armature: {fileID: 1271344576}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
