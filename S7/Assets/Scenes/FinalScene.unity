@@ -682,6 +682,14 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 7311762252520761712, guid: a51977e119e145046ae586e2058894c1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7311762252520761712, guid: a51977e119e145046ae586e2058894c1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.2719998
+      objectReference: {fileID: 0}
     - target: {fileID: 7716592603356594048, guid: a51977e119e145046ae586e2058894c1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.43
