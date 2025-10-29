@@ -12,7 +12,8 @@ public class RatController : MonoBehaviour
     public float gravity;
     public float airControl;
     public float rotationSpeed;
-    
+    public bool running;
+
     private CharacterController cc;
     private Animator anim;
     private Vector3 moveDirection = Vector3.zero;
@@ -20,7 +21,7 @@ public class RatController : MonoBehaviour
     public GameObject armature;
     private void Awake()
     {
-        cc = GetComponent<CharacterController>();
+        cc = gameObject.GetComponent<CharacterController>();
         anim = GetComponent<Animator>();
     }
 
@@ -57,6 +58,7 @@ public class RatController : MonoBehaviour
             if (input.sqrMagnitude > 0.01f)
             {
                 anim.SetBool("isRunning", true);
+                running = anim.GetBool("isRunning");
                 moveDirection = new Vector3(input.x, moveDirection.y, input.z);
             }
             else
