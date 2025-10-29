@@ -37,6 +37,7 @@ public class CameraChange : MonoBehaviour
             }
 
             transform.position = startingPositions[index].transform.position;
+            transform.rotation = startingPositions[index].transform.rotation;
 
             characterController.enabled = false;
             cameras[index].gameObject.SetActive(true);
