@@ -8,52 +8,52 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text1_BaseColor.1001
-    second: {fileID: 2800000, guid: ebf520d10a83d3a409fd2ff4b6b33dd3, type: 3}
+    second: {fileID: 2800000, guid: 0c9bc8b24b16f8341b3bbbb24d310581, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text1_Height.1001
-    second: {fileID: 2800000, guid: 076908ad5fa28114bba46bc16a8bbb4d, type: 3}
+    second: {fileID: 2800000, guid: 0b03fcebc50eacd41a259a6c4b427804, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text1_Metalness.1001
-    second: {fileID: 2800000, guid: 191d6cc03d04347479b458106000eb6a, type: 3}
+    second: {fileID: 2800000, guid: 1ec6ba62aab610941af047e51d867ef5, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text1_Normal.1001
-    second: {fileID: 2800000, guid: e7974322dfbe8924ca70a0c14de718a1, type: 3}
+    second: {fileID: 2800000, guid: efd1d5557149f6b44ae5d2957abd5be8, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text1_Roughness.1001
-    second: {fileID: 2800000, guid: f1fa29e3da89e7d4ea879d0ee8efd926, type: 3}
+    second: {fileID: 2800000, guid: 0c01eded586ac424c9257c08df29f167, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text2_BaseColor.1001
-    second: {fileID: 2800000, guid: 476e8f9e7a0a27c428f75bf73d7c6d29, type: 3}
+    second: {fileID: 2800000, guid: 93f05f5b63c708f49af0794f6a9d3c98, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text2_Height.1001
-    second: {fileID: 2800000, guid: f26e109c3c11a4441b6ec9829a8216c0, type: 3}
+    second: {fileID: 2800000, guid: 5aa2bc7b7301f6a40bed109ba0805434, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text2_Metalness.1001
-    second: {fileID: 2800000, guid: de0028390385a6b4db55452c4ab36433, type: 3}
+    second: {fileID: 2800000, guid: 6c110447f4e87fc4b94f2759f37d65c6, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text2_Normal.1001
-    second: {fileID: 2800000, guid: b77672feb02744d4daa252dfcc2dea9e, type: 3}
+    second: {fileID: 2800000, guid: 0fd68cdb035f5ec41a06fe7c4aed4b57, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Rubber_Bands_Rubber_Band_text2_Roughness.1001
-    second: {fileID: 2800000, guid: dc3e0f109e540bf4a8fcdc4b2c35f2a1, type: 3}
+    second: {fileID: 2800000, guid: f59b2fcd70a8d5145bd9fc5cf70fda7f, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
