@@ -33,7 +33,7 @@ public class Interactable : MonoBehaviour
         newCameraPosition = transform.position - Vector3.forward * distanceFromCamera;
         newCameraRotation = transform.rotation;
         
-        audioSource = player.GetComponent<AudioSource>();
+        audioSource = cameraTransform.GetComponent<AudioSource>();
     }
 
     void Update()
