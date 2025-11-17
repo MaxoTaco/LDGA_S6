@@ -344,6 +344,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   detectionRange: 2
   canvas: {fileID: 802754839}
+  player: {fileID: 1005809878}
+  moveCameraDuration: 2
+  interactionDuration: 5
+  distanceFromCamera: 1
+  interactionAudio: {fileID: 0}
 --- !u!65 &679522325
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -539,6 +544,11 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 48.5442, y: 58.5029}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1005809878 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6057815593618628986, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
+  m_PrefabInstance: {fileID: 5446182843064311056}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1242526144
 GameObject:
   m_ObjectHideFlags: 0

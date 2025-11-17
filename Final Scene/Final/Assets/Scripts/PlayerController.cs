@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     CharacterController controller;
     AudioSource audioSource;
 
+    public bool StopMovement { get; set; }
 
     void Start()
     {
@@ -21,6 +22,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (StopMovement) return;
+
         // get input
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
         float moveVertical = Input.GetAxisRaw("Vertical");

@@ -9,6 +9,8 @@ public class CameraController : MonoBehaviour
     Transform playerBody;
     float pitch;
 
+    public bool StopMovement { get; set; }
+
     void Start()
     {
         playerBody = transform.parent.transform;
@@ -19,6 +21,8 @@ public class CameraController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (StopMovement) return;
+
         float moveX = Input.GetAxis("Mouse X") * mouseSensitivity * Time.deltaTime;
         float moveY = Input.GetAxis("Mouse Y") * mouseSensitivity * Time.deltaTime;
 
