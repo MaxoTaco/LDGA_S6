@@ -1,15 +1,21 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Interactable : MonoBehaviour
 {
+    public enum InteractionStage {FirstInteraction, SecondInteraction, ThirdInteraction, FourthInteraction}
+    public enum CameraAngle {Front, Top}
+
     [Header("General Settings")]
+    public CameraAngle cameraAngle;
     public float detectionRange = 2f;
     public GameObject canvas;
     public GameObject player;
 
     [Header("Interaction Settings")]
+    public InteractionStage interactionStage;
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
     public float interactionDuration = 10f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
     public float distanceFromCamera = .5f; // how far the camera will be from the object
@@ -22,6 +28,7 @@ public class Interactable : MonoBehaviour
     Quaternion newCameraRotation;
     AudioSource audioSource;
     bool inInteraction = false;
+    UnityEvent onInteraction = new UnityEvent();
 
     void Start()
     {
@@ -29,11 +36,22 @@ public class Interactable : MonoBehaviour
         cameraTransform = Camera.main.transform;
         cameraController = cameraTransform.GetComponent<CameraController>();
 
-        // can be adjusted later for different postions (vertical, different orientations)
-        newCameraPosition = transform.position - Vector3.forward * distanceFromCamera;
+        newCameraPosition = transform.position;
         newCameraRotation = transform.rotation;
+        if (cameraAngle == CameraAngle.Front)
+        {
+            newCameraPosition -= Vector3.forward * distanceFromCamera;
+        }
+        else if (cameraAngle == CameraAngle.Top)
+        {
+            newCameraPosition -= Vector3.down * distanceFromCamera;
+            newCameraRotation *= Quaternion.Euler(90, 0, 0);
+        }
         
         audioSource = cameraTransform.GetComponent<AudioSource>();
+
+        var objects = GameObject.FindGameObjectsWithTag(interactionStage.ToString());
+        foreach (var obj in objects) onInteraction.AddListener(obj.GetComponent<SwapObject>().Swap);
     }
 
     void Update()
@@ -100,10 +118,13 @@ public class Interactable : MonoBehaviour
         yield return new WaitForSeconds(interactionDuration);
 
         // start blink here, close eyes (goes to black screen)
+        // wait for some seconds
 
         // change environment here
+        onInteraction.Invoke();
 
         // end blink here, open eyes
+        // wait for some seconds
 
         // move camera back
         elapsedTime = 0;
