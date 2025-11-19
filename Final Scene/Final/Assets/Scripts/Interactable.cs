@@ -32,7 +32,8 @@ public class Interactable : MonoBehaviour
 
     void Start()
     {
-        playerController = player.GetComponent<PlayerController>();
+        playerController = FindAnyObjectByType<PlayerController>();
+        //playerController = player.GetComponent<PlayerController>();
         cameraTransform = Camera.main.transform;
         cameraController = cameraTransform.GetComponent<CameraController>();
 
