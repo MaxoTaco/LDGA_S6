@@ -6,22 +6,21 @@ using UnityEngine.Events;
 public class Interactable : MonoBehaviour
 {
     public enum InteractionStage {FirstInteraction, SecondInteraction, ThirdInteraction, FourthInteraction}
-    public enum CameraAngle {Front, Top}
 
     [Header("General Settings")]
-    public CameraAngle cameraAngle;
     public float detectionRange = 2f;
     public GameObject canvas;
     public GameObject player;
+    public Transform cameraPosition;
 
     [Header("Interaction Settings")]
     public InteractionStage interactionStage;
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
     public float interactionDuration = 10f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
-    public float distanceFromCamera = .5f; // how far the camera will be from the object
     public AudioClip interactionAudio;
 
     PlayerController playerController;
+    MeshRenderer playerMesh;
     Transform cameraTransform;
     CameraController cameraController;
     Vector3 newCameraPosition;
@@ -32,27 +31,25 @@ public class Interactable : MonoBehaviour
 
     void Start()
     {
-        playerController = FindAnyObjectByType<PlayerController>();
-        //playerController = player.GetComponent<PlayerController>();
+        if (!player) player = GameObject.Find("Player");
+        playerController = player.GetComponent<PlayerController>();
+        playerMesh = player.GetComponent<MeshRenderer>();
         cameraTransform = Camera.main.transform;
         cameraController = cameraTransform.GetComponent<CameraController>();
 
-        newCameraPosition = transform.position;
-        newCameraRotation = transform.rotation;
-        if (cameraAngle == CameraAngle.Front)
-        {
-            newCameraPosition -= Vector3.forward * distanceFromCamera;
-        }
-        else if (cameraAngle == CameraAngle.Top)
-        {
-            newCameraPosition -= Vector3.down * distanceFromCamera;
-            newCameraRotation *= Quaternion.Euler(90, 0, 0);
-        }
+        if (!cameraPosition) cameraPosition = transform.Find("Camera Position");
+
+        newCameraPosition = cameraPosition.position;
+        newCameraRotation = cameraPosition.rotation;
         
         audioSource = cameraTransform.GetComponent<AudioSource>();
 
         var objects = GameObject.FindGameObjectsWithTag(interactionStage.ToString());
-        foreach (var obj in objects) onInteraction.AddListener(obj.GetComponent<SwapObject>().Swap);
+        foreach (var obj in objects)
+        {
+            var swapObject = obj.GetComponent<SwapObject>();
+            if (swapObject) onInteraction.AddListener(swapObject.Swap);
+        }
     }
 
     void Update()
@@ -86,6 +83,7 @@ public class Interactable : MonoBehaviour
         // freezes player and camera movement
         playerController.StopMovement = true;
         cameraController.StopMovement = true;
+        playerMesh.enabled = false;
 
         // save initial camera position
         Vector3 originalCameraPostion = cameraController.transform.position;
@@ -148,8 +146,10 @@ public class Interactable : MonoBehaviour
 
         playerController.StopMovement = false;
         cameraController.StopMovement = false;
+        playerMesh.enabled = true;
 
         inInteraction = false;
+        enabled = false;
     }
 
     // formula from https://easings.net/#easeInOutSine
