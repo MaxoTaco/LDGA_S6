@@ -10,8 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1600817390259613208}
   - component: {fileID: 2648130636110356154}
+  - component: {fileID: 4033986022027811709}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: Local Post Processing Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 661664528831818011}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.27003, y: 2.05514, z: -5.12614}
+  m_LocalPosition: {x: 15.11, y: 2.05514, z: -4.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,8 +45,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
+  m_IsGlobal: 0
+  priority: 1
+  blendDistance: 1
   weight: 1
   sharedProfile: {fileID: 11400000, guid: eb4914c18d8cfc34ea7f63744bceefb8, type: 2}
+--- !u!65 &4033986022027811709
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661664528831818011}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.0645475, y: 1.5522392, z: 0.73315716}
+  m_Center: {x: -1.1160626, y: -1.1540753, z: 0.5445833}

@@ -18,6 +18,7 @@ public class Interactable : MonoBehaviour
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
     public float interactionDuration = 10f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
     public AudioClip interactionAudio;
+    public PostProcessingVolume postProcessingVolume;
 
     PlayerController playerController;
     MeshRenderer playerMesh;
@@ -90,7 +91,10 @@ public class Interactable : MonoBehaviour
         Quaternion originalCameraRotation = cameraController.transform.rotation;
 
         // lerp to new position
+        
         // may want to gradually apply post processing in here as well
+
+        
         float elapsedTime = 0f;
 
         while (elapsedTime < moveCameraDuration)
@@ -113,6 +117,8 @@ public class Interactable : MonoBehaviour
         if (interactionAudio) audioSource.PlayOneShot(interactionAudio);
 
         // post processing effects here
+        // ^ seeing what it looks like if I apply here. Fade out should take some time to run.
+        if (postProcessingVolume) postProcessingVolume.GetComponent<PostProcessingVolume>().FadeOut();
 
         yield return new WaitForSeconds(interactionDuration);
 
