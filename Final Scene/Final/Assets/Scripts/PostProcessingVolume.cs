@@ -2,15 +2,21 @@ using UnityEngine;
 
 public class PostProcessingVolume : MonoBehaviour
 {
-    public float distance = 3f;
-    public float speed = 1f;
+    private float distance = 3f;
 
+    Vector3 start;
     Vector3 target;
+    float duration;
+    float t;
     bool moving = false;
 
-    public void FadeOut()
+    public void FadeOut(float seconds)
     {
-        target = transform.position + Vector3.up * distance;
+        start = transform.position;
+        target = start + Vector3.up * distance;
+
+        duration = seconds;
+        t = 0f;
         moving = true;
     }
 
@@ -18,9 +24,10 @@ public class PostProcessingVolume : MonoBehaviour
     {
         if (!moving) return;
 
-        transform.position = Vector3.MoveTowards(transform.position, target, speed * Time.deltaTime);
+        t += Time.deltaTime / duration;
+        transform.position = Vector3.Lerp(start, target, t);
 
-        if (transform.position == target)
+        if (t >= 1f)
             moving = false;
     }
 }

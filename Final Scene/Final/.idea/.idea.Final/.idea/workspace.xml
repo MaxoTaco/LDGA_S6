@@ -6,13 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="43397872-53d0-4548-b0ea-fada23a1caaa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Final/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Final/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Post Processing/Global Volume.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Post Processing/Global Volume.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Post Processing/Present Volume.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Post Processing/Present Volume.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Final.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Final.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interactable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PostProcessingController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PostProcessingController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PostProcessingVolume.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PostProcessingVolume.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +89,7 @@
       <updated>1763598546411</updated>
       <workItem from="1763598549462" duration="6000" />
       <workItem from="1763680516925" duration="597000" />
-      <workItem from="1764695572283" duration="1179000" />
+      <workItem from="1764695572283" duration="2249000" />
     </task>
     <servers />
   </component>

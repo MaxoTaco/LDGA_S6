@@ -118,7 +118,7 @@ public class Interactable : MonoBehaviour
 
         // post processing effects here
         // ^ seeing what it looks like if I apply here. Fade out should take some time to run.
-        if (postProcessingVolume) postProcessingVolume.GetComponent<PostProcessingVolume>().FadeOut();
+        if (postProcessingVolume) postProcessingVolume.GetComponent<PostProcessingVolume>().FadeOut(interactionDuration);
 
         yield return new WaitForSeconds(interactionDuration);
 
@@ -128,6 +128,7 @@ public class Interactable : MonoBehaviour
         // change environment here
         onInteraction.Invoke();
 
+       
         // end blink here, open eyes
         // wait for some seconds
 
@@ -145,6 +146,8 @@ public class Interactable : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
+        
+        
 
         // snap to at the end
         cameraTransform.position = originalCameraPostion;
