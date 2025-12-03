@@ -20,6 +20,7 @@ public class Interactable : MonoBehaviour
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
     public float interactionDuration = 0.25f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
     public String[] texts;
+    public SwapObject[] ObjectsToSwap;
 
 
     public AudioClip interactionAudio;
@@ -155,11 +156,13 @@ public class Interactable : MonoBehaviour
         }
         
 
-        // start blink here, close eyes (goes to black screen)
-        // wait for some seconds
 
         // change environment here
         onInteraction.Invoke();
+        foreach(SwapObject i in ObjectsToSwap)
+        {
+            i.Swap();
+        }
 
 
         // end blink here, open eyes

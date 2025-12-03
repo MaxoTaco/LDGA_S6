@@ -7,12 +7,20 @@ public class SwapObject : MonoBehaviour
     // the past object will already be active, and this script swaps the present (past -> present)
     // an object with this script should be assigned to its corresponding tag based on which number interaction it is
 
-    public GameObject swapFrom;
-    public GameObject swapTo;
+    public Mesh swapToM;
+    public Material swapTo;
 
     public void Swap()
     {
-        swapFrom.SetActive(false);
-        swapTo.SetActive(true);
+        if(swapToM != null)
+        {
+            gameObject.GetComponent<MeshFilter>().mesh = swapToM;
+        }
+        if(gameObject.GetComponent<MeshCollider>() != null)
+        {
+            gameObject.GetComponent<MeshCollider>().enabled = false;
+        }
+
+        gameObject.GetComponent<MeshRenderer>().material = swapTo;
     }
 }
