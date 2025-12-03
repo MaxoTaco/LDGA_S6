@@ -82,7 +82,7 @@ public class Interactable : MonoBehaviour
 
     IEnumerator StartInteraction()
     {
-        anim.SetTrigger("Close");
+        
 
         inInteraction = true;
         canvas.SetActive(false);
@@ -118,7 +118,7 @@ public class Interactable : MonoBehaviour
         // snap to at the end
         cameraTransform.position = newCameraPosition;
         cameraTransform.rotation = newCameraRotation;
-
+        anim.SetTrigger("Close");
         // play audio
         if (interactionAudio) audioSource.PlayOneShot(interactionAudio);
 
@@ -134,9 +134,11 @@ public class Interactable : MonoBehaviour
         // change environment here
         onInteraction.Invoke();
 
-       
+
         // end blink here, open eyes
         // wait for some seconds
+
+        anim.SetTrigger("Open");
 
         // move camera back
         elapsedTime = 0;
@@ -152,8 +154,6 @@ public class Interactable : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-
-        anim.SetTrigger("Open");
 
         // snap to at the end
         cameraTransform.position = originalCameraPostion;
