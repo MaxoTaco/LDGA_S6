@@ -1,0 +1,335 @@
+fileFormatVersion: 2
+guid: 185687c0f01d43e42af4f129828351ea
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot3_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: db9e381c628fb9945b8f9073226e9cfc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot3_PH_Height.1001
+    second: {fileID: 2800000, guid: 357aa305373373041aa144e023c7a1d8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot3_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 7d6d74ebfdc63f3498e466845f79e710, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot3_PH_Normal.1001
+    second: {fileID: 2800000, guid: 002fce6edf89b094e82bfcfaa4ef95d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot3_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 5c8a62202b95df64a9f772b2792def7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot4_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 0be45c33b5a07db4e9b9dca7e41d1128, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot4_PH_Height.1001
+    second: {fileID: 2800000, guid: 06b3bc8ffc99b914fa6b09c00797900c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot4_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 03db26f7d01645e40bc048b77484812f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot4_PH_Normal.1001
+    second: {fileID: 2800000, guid: b6c0088aa226ad5448e04f188536e3a3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot4_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 73ea19a2bfaa6c1428ddfc13b8549c84, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_1_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 3e0ad00ea57102144845d0d6a0116905, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_1_PH_Height.1001
+    second: {fileID: 2800000, guid: 911ec167921c21a438ae9c616c62e756, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_1_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 58f55fe4d33a94c45a73c5621344060e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_1_PH_Normal.1001
+    second: {fileID: 2800000, guid: 9f15758a10e29354584569ff25749977, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_1_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 1c93bd0a46f0d2a4a8a457d55e1e3713, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_2_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 4ea5ff0006b5c2343947499d59f41b76, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_2_PH_Height.1001
+    second: {fileID: 2800000, guid: 9a997a6e44889624ca27465ca09992ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_2_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 997c5c8948527254e8f38a2827ccf3d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_2_PH_Normal.1001
+    second: {fileID: 2800000, guid: dcdfca00232a7614c894a736b4ba0c67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Batch_3_Substance_Pot_2_PH_Roughness.1001
+    second: {fileID: 2800000, guid: e2c496584d94a4d418dab256c80335a1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Hanging_Basket_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 6daf2daa9415bcb4e94b4daceb709a61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Hanging_Basket_PH_Height.1001
+    second: {fileID: 2800000, guid: c30a5918308d6504683a0fcd86218479, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Hanging_Basket_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 7637c563e25a4284694700e29634033a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Hanging_Basket_PH_Normal.1001
+    second: {fileID: 2800000, guid: 951d30da17bd86d4c9dcbccf602fa21d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Hanging_Basket_PH_Roughness.1001
+    second: {fileID: 2800000, guid: c9876e282adf76d4d8281e2bed701011, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Machine_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 5b791999e0e9c044b9eccd54f301e7fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Machine_PH_Height.1001
+    second: {fileID: 2800000, guid: 078b6c8d48424d643b77409b151f2c91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Machine_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 0c0ea17c61132a44a83ca4f7858c550e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Machine_PH_Normal.1001
+    second: {fileID: 2800000, guid: 9172ca58803423845aa12ca4ed88864d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Machine_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 5981991695b79044985a4aecde2bf559, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Rope_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: fa2c8fe38b118254086f96add5000e86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Rope_PH_Height.1001
+    second: {fileID: 2800000, guid: 3c96ef870e080c747b783428adc1b1f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Rope_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 3279179b9c497594ea052fc04417df2f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Rope_PH_Normal.1001
+    second: {fileID: 2800000, guid: c8837904c204f2a4f828b0f251af6e8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Rope_PH_Roughness.1001
+    second: {fileID: 2800000, guid: ec48eceebbff1b847b295f68a0f1eb97, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Sewing_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: eedaf69bee9850049aa2bbee25768377, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Sewing_PH_Height.1001
+    second: {fileID: 2800000, guid: 3230d0eb59a78a8458e97d336d76b940, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Sewing_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 760b7071689dc8a48bc98f9ff027db88, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Sewing_PH_Normal.1001
+    second: {fileID: 2800000, guid: c53457a4b829aee47a392fa5c1144f82, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Sewing_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 3dc2ed2314555394ebaa37462eeffe38, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Top_Sewing_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 22b73d22fbcce184cbcc58f90ac912ed, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Top_Sewing_PH_Height.1001
+    second: {fileID: 2800000, guid: 13845dbc903016942aaab937af639a5a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Top_Sewing_PH_Metalness.1001
+    second: {fileID: 2800000, guid: e5ac3955620e4af4ca0e283c05ff12e3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Top_Sewing_PH_Normal.1001
+    second: {fileID: 2800000, guid: 3142929ee710eb64c8feafa0c4284b3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Revised_BATCH3_Top_Sewing_PH_Roughness.1001
+    second: {fileID: 2800000, guid: d0a581fccb044f149b469bd2bec5b589, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

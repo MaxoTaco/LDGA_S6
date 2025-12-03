@@ -1,0 +1,210 @@
+fileFormatVersion: 2
+guid: fb12220dc9aa8ff48b082f020056906c
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Lids_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 35451e59e13f708419a1a453cee3c57c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Lids_PH_Height.1001
+    second: {fileID: 2800000, guid: 332a282b41cc3684cbc3145caae6d622, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Lids_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 0305722eb8a95224d96741aa4dd2aa1f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Lids_PH_Normal.1001
+    second: {fileID: 2800000, guid: 7d5ea5df20f68944ba095516d00a74ca, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Lids_PH_Roughness.1001
+    second: {fileID: 2800000, guid: c7998573089574a4183cb83b6bc7aeb7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_L_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 7b1fd9fcab7f50b46be8e107719ad63b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_L_PH_Height.1001
+    second: {fileID: 2800000, guid: ba6e5fb49e31e37499f56b00b4eb6ba6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_L_PH_Metalness.1001
+    second: {fileID: 2800000, guid: c42dd91852271054299e32d6a96f6861, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_L_PH_Normal.1001
+    second: {fileID: 2800000, guid: ac99ed42c58570f43be19b2676af4b16, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_L_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 73909ab0c688bb447acf69a486e21bde, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_R_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: be6cc75bc0896974881f0fac2573d7fb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_R_PH_Height.1001
+    second: {fileID: 2800000, guid: db8215e6f1bbba94fa80a1a6b48ae955, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_R_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 2dbdbdee46493d041963251ea0472d74, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_R_PH_Normal.1001
+    second: {fileID: 2800000, guid: 83c3f20e7596fc34b9faa203830165a6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_Pot_Stand_R_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 8e6f127cfcb5dc0468e0fe4215dbd16e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_standardSurface2_BaseColor.1001
+    second: {fileID: 2800000, guid: 1d3dee816cb33ea4ea1f72054d7eb77a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_standardSurface2_Height.1001
+    second: {fileID: 2800000, guid: aef2a489b1177a140a6671b80739f9d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_standardSurface2_Metalness.1001
+    second: {fileID: 2800000, guid: 00ac7b1079607c843be1932788756634, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_standardSurface2_Normal.1001
+    second: {fileID: 2800000, guid: 4969f212314cd0d459dab109d5a49e9d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Kitchen_Cooking_Station_standardSurface2_Roughness.1001
+    second: {fileID: 2800000, guid: 4737a174f508d4c4dbede7740e16f86b, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

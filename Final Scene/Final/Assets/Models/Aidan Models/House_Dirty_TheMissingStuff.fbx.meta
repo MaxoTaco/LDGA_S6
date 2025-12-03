@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 998077c70ad0784468d05bef9e74fd76
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_lambert1_BaseColor.1001
+    second: {fileID: 2800000, guid: e26c4c40a17b6fc4fada6cf233824cfc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_lambert1_Height.1001
+    second: {fileID: 2800000, guid: a4629496dbaf0094c8168a4664b5b568, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_lambert1_Metalness.1001
+    second: {fileID: 2800000, guid: beaf40eff787a3d49b4d99a42a524395, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_lambert1_Normal.1001
+    second: {fileID: 2800000, guid: 6fdeb578cd84ed24eaea2c81af2d442f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Roofing_lambert1_Roughness.1001
+    second: {fileID: 2800000, guid: 69d7aab7ca81fb7469ff7ebc364ac373, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_1_lambert1_BaseColor.1001
+    second: {fileID: 2800000, guid: 903410d7babf6da49b7d3e2e6d42c421, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_1_lambert1_Height.1001
+    second: {fileID: 2800000, guid: 0cc872bdfa4e3af4c9594a6bb6b6a83d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_1_lambert1_Metalness.1001
+    second: {fileID: 2800000, guid: 8c243b2695ffb4940b4748d5078556d6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_1_lambert1_Normal.1001
+    second: {fileID: 2800000, guid: edddadb9063f8444198f129bf33e7c01, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_1_lambert1_Roughness.1001
+    second: {fileID: 2800000, guid: c3d2567d703b6cf418ae577686e079ba, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_2_lambert1_BaseColor.1001
+    second: {fileID: 2800000, guid: 2cf8f1a27e72836468068d3b337b1773, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_2_lambert1_Height.1001
+    second: {fileID: 2800000, guid: 7c4eacd1248ce2040a7cb6b3ff6fedc6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_2_lambert1_Metalness.1001
+    second: {fileID: 2800000, guid: 1ff55f5a6e5fe2047af08d4dc76b9735, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_2_lambert1_Normal.1001
+    second: {fileID: 2800000, guid: 42ece540bb66b2e48aee3277a9c1ef35, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_2_lambert1_Roughness.1001
+    second: {fileID: 2800000, guid: 8e3cb147440fdbe4a914273abadfbe93, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_BaseColor.1001
+    second: {fileID: 2800000, guid: 37130602d73ceab479fd30957a035a6f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_Height.1001
+    second: {fileID: 2800000, guid: 74d9400cf9fd0064991f7f8967c1a8a4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_Metalness.1001
+    second: {fileID: 2800000, guid: 68ba9e7369d069444a136717a5530855, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_Normal.1001
+    second: {fileID: 2800000, guid: 36429d34d76726b4f832af7e46999961, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_Opacity.1001
+    second: {fileID: 2800000, guid: 001ba7b3a896258489b7aae9b5476000, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Glass_Roughness.1001
+    second: {fileID: 2800000, guid: 873fb54aeeb38e94baecf8ce259d6c3d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Metal_Beams_BaseColor.1001
+    second: {fileID: 2800000, guid: d0f2c452056f39344a106f6cd0d98f23, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Metal_Beams_Height.1001
+    second: {fileID: 2800000, guid: a5c2a4295fa7d664b8368fa48b1299b9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Metal_Beams_Metalness.1001
+    second: {fileID: 2800000, guid: 25501123453e69748a2e13bcafca180b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Metal_Beams_Normal.1001
+    second: {fileID: 2800000, guid: da18bac7afee73246885c85fd4757a3b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Metal_Beams_Roughness.1001
+    second: {fileID: 2800000, guid: 7c91cb9cc87cfaf429a4d88f535fd2b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Window_Frame_BaseColor.1001
+    second: {fileID: 2800000, guid: 26aaa815f6ddf794d9708c392440ae66, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Window_Frame_Height.1001
+    second: {fileID: 2800000, guid: 16ec3a65eb08e67448890a68032b7b56, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Window_Frame_Metalness.1001
+    second: {fileID: 2800000, guid: aa8377296ed5912469be7ccb3bd0ce98, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Window_Frame_Normal.1001
+    second: {fileID: 2800000, guid: 36b6665dee69e7841a53fecda4204661, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Window_Window_Frame_Roughness.1001
+    second: {fileID: 2800000, guid: b8a461ab4d450634f9573b3a2badad75, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
