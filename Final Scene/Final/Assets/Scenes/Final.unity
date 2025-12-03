@@ -64930,6 +64930,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1698620238}
+    - targetCorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1698620242}
   m_SourcePrefab: {fileID: 100100000, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
 --- !u!1 &1107956758
 GameObject:
@@ -125483,6 +125486,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Maru Post Processing Object
       objectReference: {fileID: 0}
+    - target: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.11
@@ -143772,6 +143779,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8bcd6bff973944d9249e7f58b710a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PostProcessingController
+--- !u!65 &1698620242
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1698620237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.4234028, y: 1.5522392, z: 0.9208751}
+  m_Center: {x: -4.1659985, y: -1.1540753, z: 4.460286}
 --- !u!43 &1699986658
 Mesh:
   m_ObjectHideFlags: 0
