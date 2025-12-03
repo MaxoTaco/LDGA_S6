@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 63ba62b18f4c27a4cb3147f6a38d2921
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Basket_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 7d5cf448684237740be8d09c2d0a38b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Basket_PH_Height.1001
+    second: {fileID: 2800000, guid: 45cac99cc0da3d74da0620f127147a04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Basket_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 99ec4226c632bf34c9a1ab16a8f261df, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Basket_PH_Normal.1001
+    second: {fileID: 2800000, guid: 0a91d4823825c8e449ea77856fee1b32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Basket_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 86498a9f507a80d4a9ea78da30f42df3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_1_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 3e99091bfb556d5468806717795fe44e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_1_PH_Height.1001
+    second: {fileID: 2800000, guid: a415cd7110888c745b5f890b13f02f14, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_1_PH_Metalness.1001
+    second: {fileID: 2800000, guid: d4f5d390098ce0c4c8cadfdb2c07bc43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_1_PH_Normal.1001
+    second: {fileID: 2800000, guid: 89a1a9296c03ad742832e098a603b496, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_1_PH_Roughness.1001
+    second: {fileID: 2800000, guid: bbd762262c336e54da0ab8e4b1883a91, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_2_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 7409f4c8093ee3946b26ee74e645ff64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_2_PH_Height.1001
+    second: {fileID: 2800000, guid: fa033e276fce978429483a0322762111, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_2_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 0c4103c761abad84e85c07e0c1c7ceb0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_2_PH_Normal.1001
+    second: {fileID: 2800000, guid: cfd45bed5caabd64db67ec8604a5aca8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_2_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 0cc1056bb5d09424abd4f6bdf3871f26, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_3_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 609fadc32bd5912419d63e151175e5ea, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_3_PH_Height.1001
+    second: {fileID: 2800000, guid: 5345e4a44a519db4eb5cb7a2af0bda8b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_3_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 5ead97cba6fd05340a677db8b1a46e61, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_3_PH_Normal.1001
+    second: {fileID: 2800000, guid: f3558b11066bbf940b58ed4ed3721310, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_3_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 2d34293f705558e47a3ef0159dedb2d0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_4_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 68be1f9efc7611144b94aa1fda2ff5bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_4_PH_Height.1001
+    second: {fileID: 2800000, guid: 5d2cb2b349a1ccf4382a1812675e5570, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_4_PH_Metalness.1001
+    second: {fileID: 2800000, guid: d3d10a3a81820064ab3f1d796e0169c3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_4_PH_Normal.1001
+    second: {fileID: 2800000, guid: 70c95c8610541a24c93bb16eb0dcd9f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Bowl_4_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 494dd6a33ae1de64baa6b633596b29d4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Clay_Plate_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: ddb924c351b15a94cbc28812d5bf448a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Clay_Plate_PH_Height.1001
+    second: {fileID: 2800000, guid: 60fafa5882b773443bb85761c4ba8cb6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Clay_Plate_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 4d85078ccf566a242a9a269388743540, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Clay_Plate_PH_Normal.1001
+    second: {fileID: 2800000, guid: 5ed01317d5cb58d4cbc5e35cae5fe940, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Clay_Plate_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 847cfca7b15fe804e88a67fdccf62766, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_1_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 46504a89ca2ecd44c81ee10788d1be57, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_1_PH_Height.1001
+    second: {fileID: 2800000, guid: 54ede51751ab1f846ad9052ced22500c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_1_PH_Metalness.1001
+    second: {fileID: 2800000, guid: f382e60b8a85ca34ca15cb15df2eeea9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_1_PH_Normal.1001
+    second: {fileID: 2800000, guid: 2ca796eaddde07344b3d3cad42409dac, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_1_PH_Roughness.1001
+    second: {fileID: 2800000, guid: c698075011503284e9fadcab200ed078, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_2_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 56af067d5e5395d459530a4df473f5d9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_2_PH_Height.1001
+    second: {fileID: 2800000, guid: d8d519a376819de499eed74303ec9195, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_2_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 097fd941dedde3741bfee4fee0fffe1a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_2_PH_Normal.1001
+    second: {fileID: 2800000, guid: a8b73ce3f1d41634eb53e875d8df4c31, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Jar_2_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 3422c8b52d223a0449b80b1ba7d0e0cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Pot_Stand_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: c4eb4b40ab5a7074a8d5177115db76ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Pot_Stand_PH_Height.1001
+    second: {fileID: 2800000, guid: bffe9e024b9d9f840ac4fb03dc1bb7d3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Pot_Stand_PH_Metalness.1001
+    second: {fileID: 2800000, guid: bd9f8a9be2c3ef746b8db40570037410, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Pot_Stand_PH_Normal.1001
+    second: {fileID: 2800000, guid: 678fb97eea422d34a97b909366d85292, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Pot_Stand_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 9ee55e42d1b9e6445a75855b568faf45, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_1_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: c6088c876b403714dab0060df1faf58e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_1_PH_Height.1001
+    second: {fileID: 2800000, guid: 6fc87919cd9c726498af987e1f16da64, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_1_PH_Metalness.1001
+    second: {fileID: 2800000, guid: a60bbec3c0fc6104e896c58f5361be30, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_1_PH_Normal.1001
+    second: {fileID: 2800000, guid: 55584dc5f68964340837f8aeee0c8782, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_1_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 8264d331c5a57824ab2d53bcf9261f7b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_2_PH_BaseColor.1001
+    second: {fileID: 2800000, guid: 7569b19de5c4c0349baf187974fd9626, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_2_PH_Height.1001
+    second: {fileID: 2800000, guid: 01ad04323c171f54e8d6a1e0204ed3c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_2_PH_Metalness.1001
+    second: {fileID: 2800000, guid: 48ce79f427de6e14bb19cdd2f831e029, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_2_PH_Normal.1001
+    second: {fileID: 2800000, guid: fcb6b55c3a42b1a42a7e486b14edd4bd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Pots_Bowls_Small_Bowl_2_PH_Roughness.1001
+    second: {fileID: 2800000, guid: 90c6960fdea55fd49ab4976737c69e1a, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

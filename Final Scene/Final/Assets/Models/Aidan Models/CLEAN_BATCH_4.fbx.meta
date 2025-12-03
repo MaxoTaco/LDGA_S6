@@ -1,0 +1,305 @@
+fileFormatVersion: 2
+guid: dda38e5477e8b5942b2d26ec23bbc007
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Cloves_BaseColor.1001
+    second: {fileID: 2800000, guid: fdbfeee408b484247979f88c1a39d822, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Cloves_Height.1001
+    second: {fileID: 2800000, guid: 8ca4710e71c8abe44975118c68287478, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Cloves_Metalness.1001
+    second: {fileID: 2800000, guid: 44d4266ed166d974fac482f6c6123d7d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Cloves_Normal.1001
+    second: {fileID: 2800000, guid: a9f809c456ab5b14bb113975c970c9fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Cloves_Roughness.1001
+    second: {fileID: 2800000, guid: bafe5a96f2cdd9c41a0feeef84110c85, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Body_BaseColor.1001
+    second: {fileID: 2800000, guid: 4696bdbf4d35a7c41ad13b482f2fe25c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Body_Height.1001
+    second: {fileID: 2800000, guid: 5b0c01d8a3bba4e4bb3348f30ac757fe, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Body_Metalness.1001
+    second: {fileID: 2800000, guid: 524985794cfb69145902957e1652cb6b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Body_Normal.1001
+    second: {fileID: 2800000, guid: 6b6c83822cb179740b97e37bc0f2f20b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Body_Roughness.1001
+    second: {fileID: 2800000, guid: 6666581c78f923740b0f8b9c5da5b827, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Dress_BaseColor.1001
+    second: {fileID: 2800000, guid: 597f7da35461f1b409b213403f08527e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Dress_Height.1001
+    second: {fileID: 2800000, guid: 44c516ff4ad3b5b469acb79d49f9c11b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Dress_Metalness.1001
+    second: {fileID: 2800000, guid: 1f9f1b39ea61f7343a8bb9843a1fec67, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Dress_Normal.1001
+    second: {fileID: 2800000, guid: ba826a45b03417e4997bb19a1ab61caf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Doll_Dress_Roughness.1001
+    second: {fileID: 2800000, guid: 635b5406072f69142b4737718be979b5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Everything_Else_BaseColor.1001
+    second: {fileID: 2800000, guid: 20c4b78574298df4eadb0d120879a44e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Everything_Else_Height.1001
+    second: {fileID: 2800000, guid: b9f86ff5eacbb3745bdca091df7193dd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Everything_Else_Metalness.1001
+    second: {fileID: 2800000, guid: f5e3ffb1f2774624882ca75cc6fa4b73, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Everything_Else_Normal.1001
+    second: {fileID: 2800000, guid: c40da6f6f44e0204db108a8e91bb3d4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Everything_Else_Roughness.1001
+    second: {fileID: 2800000, guid: 1dbdfa9f48d6c644e95663a4c5b40f72, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Hanging_Lantern1_BaseColor.1001
+    second: {fileID: 2800000, guid: 15b64f5dfbfb03843b2bb235bf44e008, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Hanging_Lantern1_Height.1001
+    second: {fileID: 2800000, guid: 8a22625f95c37b14e8f30d22ba25134a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Hanging_Lantern1_Metalness.1001
+    second: {fileID: 2800000, guid: b79a38d5925d73443b3b7774f72c6d20, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Hanging_Lantern1_Normal.1001
+    second: {fileID: 2800000, guid: fc4117512ff9ea54fa02a101573fc9b1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sitting_Lantern1_BaseColor.1001
+    second: {fileID: 2800000, guid: 02b7c3ad4d96ee44a9401a25220e3a75, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sitting_Lantern1_Height.1001
+    second: {fileID: 2800000, guid: 5cd0ab5e276393f479ad73c453dbf710, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sitting_Lantern1_Metalness.1001
+    second: {fileID: 2800000, guid: c129fae6a0c212c4da46e4fc811a8319, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sitting_Lantern1_Normal.1001
+    second: {fileID: 2800000, guid: 327e7efaae839064a8580f96755512bf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sitting_Lantern1_Roughness.1001
+    second: {fileID: 2800000, guid: 425ed14d2aed58740a8d1ba689bd952f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sliding_Doors_BaseColor.1001
+    second: {fileID: 2800000, guid: 64164071981ee274aa9bbe864eb43bbc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sliding_Doors_Height.1001
+    second: {fileID: 2800000, guid: 76ff696fbef14bf4d8ce6190c853f19b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sliding_Doors_Metalness.1001
+    second: {fileID: 2800000, guid: 5311373b371d4694481a93db01f07984, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sliding_Doors_Normal.1001
+    second: {fileID: 2800000, guid: d1a35ab611fd74f4c96a27fee571611f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Sliding_Doors_Roughness.1001
+    second: {fileID: 2800000, guid: 38096a99962679d49a01c4b78e037e4f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Swinging_Doors1_BaseColor.1001
+    second: {fileID: 2800000, guid: cbd97098bd270f34280937190ee4b7d7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Swinging_Doors1_Height.1001
+    second: {fileID: 2800000, guid: 8b05466bfb14deb4e9c596ffa4cd1e81, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Swinging_Doors1_Metalness.1001
+    second: {fileID: 2800000, guid: 26882dd4f3318e243b4876b743085a7e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Swinging_Doors1_Normal.1001
+    second: {fileID: 2800000, guid: f2cd8e3b95596694497a9b23561c4b6d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: OTHER_STUFF_Swinging_Doors1_Roughness.1001
+    second: {fileID: 2800000, guid: 93b9cb20c3d6a8741b2c7da162f43383, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
