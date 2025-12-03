@@ -192,6 +192,12 @@ public class Interactable : MonoBehaviour
             yield return null;
         }
 
+        if (interactionStage == InteractionStage.ThirdInteraction)
+        {
+            Debug.Log("attempting to animate");
+            FindFirstObjectByType<AnimateObject>().Animate();
+        }
+
         // snap to at the end
         cameraTransform.position = originalCameraPostion;
         cameraTransform.rotation = originalCameraRotation;
