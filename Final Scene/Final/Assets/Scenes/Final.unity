@@ -68565,6 +68565,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd8bcd6bff973944d9249e7f58b710a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PostProcessingController
+--- !u!65 &1150203388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150203386}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.012259483, y: 1.5522392, z: 1.1314285}
+  m_Center: {x: -1.5221391, y: -1.1540753, z: 0.16035926}
 --- !u!43 &1151858006
 Mesh:
   m_ObjectHideFlags: 0
@@ -150362,6 +150383,103 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!1001 &1877284026
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Name
+      value: Toy Post Processing Effect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.05514
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648130636110356154, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: blendDistance
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Size.x
+      value: 0.28699303
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Size.z
+      value: 0.12413716
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Center.x
+      value: 0.11013031
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Center.z
+      value: 1.2652501
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1877284028}
+  m_SourcePrefab: {fileID: 100100000, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+--- !u!1 &1877284027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+  m_PrefabInstance: {fileID: 1877284026}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1877284028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877284027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd8bcd6bff973944d9249e7f58b710a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PostProcessingController
 --- !u!43 &1882388366
 Mesh:
   m_ObjectHideFlags: 0
@@ -151056,7 +151174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_Size.z
-      value: 1.1433396
+      value: 0.16536808
       objectReference: {fileID: 0}
     - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_Center.x
@@ -151064,7 +151182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_Center.z
-      value: 0.16631484
+      value: -0.32267094
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -151073,6 +151191,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1150203387}
+    - targetCorrespondingSourceObject: {fileID: 661664528831818011, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1150203388}
   m_SourcePrefab: {fileID: 100100000, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
 --- !u!43 &1904716900
 Mesh:
@@ -160477,6 +160598,7 @@ SceneRoots:
   - {fileID: 687135329}
   - {fileID: 1092027670}
   - {fileID: 1898579817}
+  - {fileID: 1877284026}
   - {fileID: 490173142}
   - {fileID: 1835179537}
   - {fileID: 115905301}

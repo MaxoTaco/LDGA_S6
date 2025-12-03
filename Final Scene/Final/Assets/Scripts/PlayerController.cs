@@ -29,7 +29,11 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        if (StopMovement) return;
+        if (StopMovement) 
+        {
+            isWalking = false;
+            return;
+        }
 
         // get input
         float moveHorizontal = Input.GetAxisRaw("Horizontal");
