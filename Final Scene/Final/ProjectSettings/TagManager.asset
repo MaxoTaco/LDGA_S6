@@ -8,6 +8,7 @@ TagManager:
   - SecondInteraction
   - ThirdInteraction
   - FourthInteraction
+  - Canvas
   layers:
   - Default
   - TransparentFX
