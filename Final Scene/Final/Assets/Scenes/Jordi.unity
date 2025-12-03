@@ -35530,7 +35530,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b30f9b89e86168346a30d073ccd28556, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.343
+      value: 1.268
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b30f9b89e86168346a30d073ccd28556, type: 3}
       propertyPath: m_LocalPosition.z
@@ -133637,9 +133637,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4746010741286066917, guid: f8f294aa398709b4f9cb13ff7f2cfee2, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -239.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4746010741286066917, guid: f8f294aa398709b4f9cb13ff7f2cfee2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: -4746010741286066917, guid: f8f294aa398709b4f9cb13ff7f2cfee2, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -43.3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f8f294aa398709b4f9cb13ff7f2cfee2, type: 3}
       propertyPath: m_Name
       value: HOUSE_CLEAN_NoRoof
+      objectReference: {fileID: 0}
+    - target: {fileID: 9059404973440130275, guid: f8f294aa398709b4f9cb13ff7f2cfee2, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 129.3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
