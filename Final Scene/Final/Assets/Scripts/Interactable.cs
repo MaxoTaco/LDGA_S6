@@ -30,8 +30,12 @@ public class Interactable : MonoBehaviour
     bool inInteraction = false;
     UnityEvent onInteraction = new UnityEvent();
 
+    private Animator anim;
+
     void Start()
     {
+        anim = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Animator>();
+
         if (!player) player = GameObject.Find("Player");
         playerController = player.GetComponent<PlayerController>();
         playerMesh = player.GetComponent<MeshRenderer>();
@@ -78,6 +82,8 @@ public class Interactable : MonoBehaviour
 
     IEnumerator StartInteraction()
     {
+        anim.SetTrigger("Close");
+
         inInteraction = true;
         canvas.SetActive(false);
 
@@ -146,8 +152,8 @@ public class Interactable : MonoBehaviour
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        
-        
+
+        anim.SetTrigger("Open");
 
         // snap to at the end
         cameraTransform.position = originalCameraPostion;
@@ -159,6 +165,8 @@ public class Interactable : MonoBehaviour
 
         inInteraction = false;
         enabled = false;
+
+        
     }
 
     // formula from https://easings.net/#easeInOutSine
