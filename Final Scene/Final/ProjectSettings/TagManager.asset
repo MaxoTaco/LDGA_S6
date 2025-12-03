@@ -9,6 +9,7 @@ TagManager:
   - ThirdInteraction
   - FourthInteraction
   - Canvas
+  - Leaf
   layers:
   - Default
   - TransparentFX

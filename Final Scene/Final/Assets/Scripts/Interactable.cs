@@ -21,7 +21,7 @@ public class Interactable : MonoBehaviour
     public float interactionDuration = 0.25f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
     public String[] texts;
     public SwapObject[] ObjectsToSwap;
-
+    public Texture2D color;
 
     public AudioClip interactionAudio;
     public PostProcessingVolume postProcessingVolume;
@@ -43,6 +43,7 @@ public class Interactable : MonoBehaviour
 
     void Start()
     {
+        
         anim = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Animator>();
         m_TextMeshPro = GameObject.FindGameObjectWithTag("Canvas").GetComponentInChildren<TextMeshProUGUI>();
 
@@ -151,7 +152,7 @@ public class Interactable : MonoBehaviour
             while (m_TextMeshPro.text.Length > 0)
             {
                 m_TextMeshPro.text = m_TextMeshPro.text.Substring(0, m_TextMeshPro.text.Length - 1);
-                yield return new WaitForSeconds(0.05f);
+                yield return new WaitForSeconds(0.02f);
             }
         }
         
@@ -163,6 +164,11 @@ public class Interactable : MonoBehaviour
         {
             i.Swap();
         }
+        foreach (GameObject o in GameObject.FindGameObjectsWithTag("Leaf"))
+        {
+            o.GetComponent<MeshRenderer>().materials[1].SetTexture("_BaseMap", color);
+        }
+            
 
 
         // end blink here, open eyes
