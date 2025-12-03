@@ -2,6 +2,8 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using TMPro;
+using UnityEngine.UI;
 
 public class Interactable : MonoBehaviour
 {
@@ -16,7 +18,10 @@ public class Interactable : MonoBehaviour
     [Header("Interaction Settings")]
     public InteractionStage interactionStage;
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
-    public float interactionDuration = 10f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
+    public float interactionDuration = 0.25f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
+    public String[] texts;
+
+
     public AudioClip interactionAudio;
     public PostProcessingVolume postProcessingVolume;
 
@@ -31,10 +36,14 @@ public class Interactable : MonoBehaviour
     UnityEvent onInteraction = new UnityEvent();
 
     private Animator anim;
+    private TextMeshProUGUI m_TextMeshPro;
+
+    bool done = false;
 
     void Start()
     {
         anim = GameObject.FindGameObjectWithTag("Canvas").GetComponent<Animator>();
+        m_TextMeshPro = GameObject.FindGameObjectWithTag("Canvas").GetComponentInChildren<TextMeshProUGUI>();
 
         if (!player) player = GameObject.Find("Player");
         playerController = player.GetComponent<PlayerController>();
@@ -126,7 +135,25 @@ public class Interactable : MonoBehaviour
         // ^ seeing what it looks like if I apply here. Fade out should take some time to run.
         if (postProcessingVolume) postProcessingVolume.GetComponent<PostProcessingVolume>().FadeOut(interactionDuration);
 
-        yield return new WaitForSeconds(interactionDuration);
+        
+        foreach(String s in texts)
+        {
+            for (int i = 0; i < s.Length; i++)
+            {
+                m_TextMeshPro.text += s[i];
+                yield return new WaitForSeconds(0.05f);
+            }
+
+
+            yield return new WaitForSeconds(1f);
+
+            while (m_TextMeshPro.text.Length > 0)
+            {
+                m_TextMeshPro.text = m_TextMeshPro.text.Substring(0, m_TextMeshPro.text.Length - 1);
+                yield return new WaitForSeconds(0.05f);
+            }
+        }
+        
 
         // start blink here, close eyes (goes to black screen)
         // wait for some seconds
@@ -139,6 +166,7 @@ public class Interactable : MonoBehaviour
         // wait for some seconds
 
         anim.SetTrigger("Open");
+        
 
         // move camera back
         elapsedTime = 0;
@@ -181,4 +209,6 @@ public class Interactable : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
     }
+
+    
 }
