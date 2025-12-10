@@ -10,6 +10,7 @@ public class SwapObject : MonoBehaviour
     public Mesh swapToM;
     public Material swapTo;
     public InteractionStage interactionStage;
+    public bool disableMesh;
 
     public void Swap()
     {
@@ -17,10 +18,11 @@ public class SwapObject : MonoBehaviour
         {
             gameObject.GetComponent<MeshFilter>().mesh = swapToM;
         }
-        if(gameObject.GetComponent<MeshCollider>() != null)
+        /*if(gameObject.GetComponent<MeshCollider>() != null)
         {
-            //gameObject.GetComponent<MeshCollider>().enabled = false;
-        }
+            gameObject.GetComponent<MeshCollider>().enabled = false;
+        }*/
+        if (disableMesh) gameObject.GetComponent<MeshCollider>().enabled = false;
 
         gameObject.GetComponent<MeshRenderer>().material = swapTo;
     }
