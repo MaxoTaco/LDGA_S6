@@ -970,6 +970,10 @@ PrefabInstance:
       propertyPath: m_RenderPostProcessing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5981121251196560189, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6057815593618628986, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
       propertyPath: m_Name
       value: Player
@@ -6858,6 +6862,10 @@ PrefabInstance:
     - target: {fileID: 1600817390259613208, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2648130636110356154, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4033986022027811709, guid: 93e90f661d740144f85ed2d4fe7ca846, type: 3}
       propertyPath: m_Size.x
