@@ -928,15 +928,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2512029745574615208, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 16.486
+      value: 14.03
       objectReference: {fileID: 0}
     - target: {fileID: 2512029745574615208, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.972
+      value: 0.533
       objectReference: {fileID: 0}
     - target: {fileID: 2512029745574615208, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.206
+      value: -8.15
       objectReference: {fileID: 0}
     - target: {fileID: 2512029745574615208, guid: 0a75cab6cbf8dc04fada318329f08d38, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6721,8 +6721,6 @@ MonoBehaviour:
     border. Over. '
   - "Chulsoo: Copy. This strange house is strange. It looks completely untouched.
     I\u2019m gonna take a look. Over."
-  - 'Radio: What? Every house in this area is practically rubble. **Radio Static**
-    Hurry up Chulsoo. Over.'
   - 'Radio: What? Every house in this area is practically rubble. **Radio Static**
     Hurry up Chulsoo. Over.'
   - 'Chulsoo: Copy that. **Sound of Radio being put away**'
