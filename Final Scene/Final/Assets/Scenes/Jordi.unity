@@ -7456,6 +7456,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5694422260402274442, guid: c6f8771ae8fc98b4ea82b7a491015223, type: 3}
+      propertyPath: interactionAudio
+      value: 
+      objectReference: {fileID: 8300000, guid: 68128f1d759c70c418ded3345528c25d, type: 3}
+    - target: {fileID: 5694422260402274442, guid: c6f8771ae8fc98b4ea82b7a491015223, type: 3}
       propertyPath: texts.Array.size
       value: 5
       objectReference: {fileID: 0}
@@ -21477,7 +21481,7 @@ MonoBehaviour:
   color: {fileID: 2800000, guid: 70b8fc8dca9e87840965b6f1201e5f7b, type: 3}
   body1: {fileID: 1879713750}
   body2: {fileID: 1004054078}
-  interactionAudio: {fileID: 0}
+  interactionAudio: {fileID: 8300000, guid: 7fd740e746dc1f948907c5215c7d0bbe, type: 3}
   postProcessingVolume: {fileID: 1434846481}
 --- !u!1 &1591338619 stripped
 GameObject:
