@@ -3,12 +3,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
 using TMPro;
-using UnityEngine.UI;
+using System.Collections.Generic;
+
+public enum InteractionStage {FirstInteraction, SecondInteraction, ThirdInteraction, FourthInteraction}
 
 public class Interactable : MonoBehaviour
 {
-    public enum InteractionStage {FirstInteraction, SecondInteraction, ThirdInteraction, FourthInteraction}
-
     [Header("General Settings")]
     public float detectionRange = 2f;
     public GameObject canvas;
@@ -20,7 +20,6 @@ public class Interactable : MonoBehaviour
     public float moveCameraDuration = 2f; // in seconds, time to move camera to frame the object
     public float interactionDuration = 0.25f; // in seconds, durations of the entire interaction (AFTER moveCameraDuration)
     public String[] texts;
-    public SwapObject[] ObjectsToSwap;
     public Texture2D color;
 
     public AudioClip interactionAudio;
@@ -35,6 +34,7 @@ public class Interactable : MonoBehaviour
     AudioSource audioSource;
     bool inInteraction = false;
     UnityEvent onInteraction = new UnityEvent();
+    List<SwapObject> objectsToSwap = new List<SwapObject>();
 
     private Animator anim;
     private TextMeshProUGUI m_TextMeshPro;
@@ -60,11 +60,10 @@ public class Interactable : MonoBehaviour
         
         audioSource = cameraTransform.GetComponent<AudioSource>();
 
-        var objects = GameObject.FindGameObjectsWithTag(interactionStage.ToString());
-        foreach (var obj in objects)
+        var swapObjects = FindObjectsByType<SwapObject>(FindObjectsSortMode.None);
+        foreach (var swapObject in swapObjects)
         {
-            var swapObject = obj.GetComponent<SwapObject>();
-            if (swapObject) onInteraction.AddListener(swapObject.Swap);
+            if (swapObject && swapObject.interactionStage == interactionStage) objectsToSwap.Add(swapObject);
         }
     }
 
@@ -160,7 +159,7 @@ public class Interactable : MonoBehaviour
 
         // change environment here
         onInteraction.Invoke();
-        foreach(SwapObject i in ObjectsToSwap)
+        foreach(SwapObject i in objectsToSwap)
         {
             i.Swap();
         }

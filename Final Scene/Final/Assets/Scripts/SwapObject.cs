@@ -9,6 +9,7 @@ public class SwapObject : MonoBehaviour
 
     public Mesh swapToM;
     public Material swapTo;
+    public InteractionStage interactionStage;
 
     public void Swap()
     {
@@ -18,7 +19,7 @@ public class SwapObject : MonoBehaviour
         }
         if(gameObject.GetComponent<MeshCollider>() != null)
         {
-            gameObject.GetComponent<MeshCollider>().enabled = false;
+            //gameObject.GetComponent<MeshCollider>().enabled = false;
         }
 
         gameObject.GetComponent<MeshRenderer>().material = swapTo;
