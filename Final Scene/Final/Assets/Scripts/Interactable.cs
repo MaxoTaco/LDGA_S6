@@ -22,6 +22,10 @@ public class Interactable : MonoBehaviour
     public String[] texts;
     public Texture2D color;
 
+    public GameObject body1;
+    public GameObject body2;
+    
+
     public AudioClip interactionAudio;
     public PostProcessingVolume postProcessingVolume;
 
@@ -65,6 +69,12 @@ public class Interactable : MonoBehaviour
         {
             if (swapObject && swapObject.interactionStage == interactionStage) objectsToSwap.Add(swapObject);
         }
+        if(body1!=null && body2!=null){
+        //Bodies disabled
+        body1.SetActive(false);
+        body2.SetActive(false);
+        }
+        
     }
 
     void Update()
@@ -195,6 +205,12 @@ public class Interactable : MonoBehaviour
         {
             Debug.Log("attempting to animate");
             FindFirstObjectByType<AnimateObject>().Animate();
+        }
+        if (interactionStage == InteractionStage.FourthInteraction)
+        {
+            body1.SetActive(true);
+            body2.SetActive(true);
+            
         }
 
         // snap to at the end
